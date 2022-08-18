@@ -1,0 +1,84 @@
+body{
+    background-color:hsl(30, 38%, 92%);
+}
+.my-container{
+    padding:40px;
+}
+.main{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.left{
+    padding: 0px;
+}
+.right{
+    padding: 35px 40px 25px 35px;
+}
+.product-img-desktop{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+.product-img-mobile{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+.product-type>p{
+    font-family: Montserrat;
+    font-weight: 600;
+    color: darkgrey;
+    letter-spacing:5px;
+    font-size: 15px;
+}
+.product-name>p{
+    font-family: Fraunces;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 85%;
+    text-decoration: italic;
+    padding-top: 5px;
+}
+.content>p{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: Montserrat;
+    font-size: 15px;
+}
+.price{
+    padding-bottom: 25px;
+}
+.final-price{
+    color:hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-size: 30px;
+    font-family: Montserrat;
+    text-decoration: italic;
+    padding-right: 15px;
+}
+.before-price{
+    color:darkgrey;
+    font-size: 15px;
+    text-decoration: line-through;
+    font-weight: 520;
+    font-family: Montserrat;
+    vertical-align: super;
+}
+.footer{
+    text-align: center;
+}
+.add-cart>button>img{
+    margin-right: 5px;
+}
+.my-btn{
+    background-color:hsl(158, 36%, 37%);
+    width: 245px;
+    height:50px;
+    border-radius: 10px;
+}
+.my-btn:hover{
+    background-color:hsl(159, 39%, 20%);
+}
+.my-btn:visited{
+    background-color:hsl(158, 36%, 37%);
+}
