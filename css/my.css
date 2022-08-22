@@ -1,3 +1,4 @@
+/*  another way to use fonts is using font-face, because it's simple, we leave it as simple as it is */
 body{
     background-color:hsl(30, 38%, 92%);
 }
@@ -25,14 +26,14 @@ body{
     border-radius: 10px 10px 0px 0px;
 }
 .product-type>p{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: darkgrey;
     letter-spacing:5px;
     font-size: 15px;
 }
 .product-name>p{
-    font-family: Fraunces;
+    font-family: 'Fraunces', serif;
     font-size: 40px;
     font-weight: 900;
     line-height: 85%;
@@ -42,26 +43,29 @@ body{
 .content>p{
     padding-top: 15px;
     padding-bottom: 10px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;  
     font-size: 15px;
+    font-weight: 500;
+    color: darkgrey;
 }
 .price{
     padding-bottom: 25px;
 }
 .final-price{
     color:hsl(158, 36%, 37%);
-    font-weight: 700;
-    font-size: 30px;
-    font-family: Montserrat;
-    text-decoration: italic;
+    font-style: italic;
     padding-right: 15px;
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    font-weight: 700;
+
 }
 .before-price{
     color:darkgrey;
-    font-size: 15px;
+    font-size: 13px;
     text-decoration: line-through;
-    font-weight: 520;
-    font-family: Montserrat;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
     vertical-align: super;
 }
 .footer{
